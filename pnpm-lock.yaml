@@ -501,7 +501,7 @@ packages:
     dependencies:
       '@better-auth/core': 1.5.5(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.3.2)(jose@6.2.5)(kysely@0.28.17)(nanostores@1.4.2)
       '@better-auth/utils': 0.3.1
-      drizzle-orm: 0.45.2(@prisma/client@6.19.3)(@xata.io/client@0.30.1)(kysely@0.28.17)(pg@8.22.0)
+      drizzle-orm: 0.45.2(@prisma/client@6.19.3)(@xata.io/client@0.30.1)(kysely@0.28.17)(pg@8.20.0)
     dev: false
 
   /@better-auth/kysely-adapter@1.5.5(@better-auth/core@1.5.5)(@better-auth/utils@0.3.1)(kysely@0.28.17):
@@ -1601,7 +1601,7 @@ packages:
     dependencies:
       '@farming-labs/orm': 0.0.62
       '@farming-labs/orm-sql': 0.0.62
-      drizzle-orm: 0.45.2(@prisma/client@6.19.3)(@xata.io/client@0.30.1)(kysely@0.28.17)(pg@8.22.0)
+      drizzle-orm: 0.45.2(@prisma/client@6.19.3)(@xata.io/client@0.30.1)(kysely@0.28.17)(pg@8.20.0)
 
   /@farming-labs/orm-dynamodb@0.0.62:
     resolution: {integrity: sha512-ycOpgK46F4lnI2oj7E3MLfVDw/BvYWdOkaYgP5/eAXJj5bcbFjTRGPdS/LBm9NPDPugzd4f7SBNGUVJCqaS/0A==}
@@ -1744,7 +1744,7 @@ packages:
     dependencies:
       '@farming-labs/orm': 0.0.62
       '@farming-labs/orm-sql': 0.0.62
-      sequelize: 6.37.8(pg@8.22.0)
+      sequelize: 6.37.8(pg@8.20.0)
 
   /@farming-labs/orm-sql@0.0.62:
     resolution: {integrity: sha512-Ufr4z4wphmihazj02ZzaW8UoG09v4TRhG+FcnNQBmPHKEkvAoBaGnB74/StzBVMBeKK64HeaZEY7azjOn3vB6g==}
@@ -1771,7 +1771,7 @@ packages:
     dependencies:
       '@farming-labs/orm': 0.0.62
       '@farming-labs/orm-sql': 0.0.62
-      typeorm: 0.3.31(mongodb@6.21.0)(pg@8.22.0)
+      typeorm: 0.3.31(mongodb@6.21.0)(pg@8.20.0)
 
   /@farming-labs/orm-unstorage@0.0.62(db0@0.3.4):
     resolution: {integrity: sha512-90ZedhspZfXFSnNbtMXQvlp2wv1K8bnnO2m02wbB3QdB8O3FWnPQCsXZlZH3IjXGtHB7S7JCH1TFJDK9H20pbg==}
@@ -3978,7 +3978,7 @@ packages:
       better-call: 1.3.2(zod@4.4.3)
       better-sqlite3: 12.8.0
       defu: 6.1.7
-      drizzle-orm: 0.45.2(@prisma/client@6.19.3)(@xata.io/client@0.30.1)(kysely@0.28.17)(pg@8.22.0)
+      drizzle-orm: 0.45.2(@prisma/client@6.19.3)(@xata.io/client@0.30.1)(kysely@0.28.17)(pg@8.20.0)
       jose: 6.2.5
       kysely: 0.28.17
       mongodb: 6.21.0
@@ -4265,7 +4265,7 @@ packages:
       sqlite3:
         optional: true
     dependencies:
-      drizzle-orm: 0.45.2(@prisma/client@6.19.3)(@xata.io/client@0.30.1)(kysely@0.28.17)(pg@8.22.0)
+      drizzle-orm: 0.45.2(@prisma/client@6.19.3)(@xata.io/client@0.30.1)(kysely@0.28.17)(pg@8.20.0)
 
   /debug@4.4.3(supports-color@10.2.2):
     resolution: {integrity: sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==}
@@ -4341,7 +4341,7 @@ packages:
     resolution: {integrity: sha512-7lAK2A0b3zZr3UC5aE69CPdCFR4RHW1o2Dr74TqFykxkUCBXSRJum/yPc7g8zRHJqWKomPLHwFLLoUnn8PXXRg==}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
-  /drizzle-orm@0.45.2(@prisma/client@6.19.3)(@xata.io/client@0.30.1)(kysely@0.28.17)(pg@8.22.0):
+  /drizzle-orm@0.45.2(@prisma/client@6.19.3)(@xata.io/client@0.30.1)(kysely@0.28.17)(pg@8.20.0):
     resolution: {integrity: sha512-kY0BSaTNYWnoDMVoyY8uxmyHjpJW1geOmBMdSSicKo9CIIWkSxMIj2rkeSR51b8KAPB7m+qysjuHme5nKP+E5Q==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
@@ -4436,7 +4436,7 @@ packages:
       '@prisma/client': 6.19.3(typescript@5.9.3)
       '@xata.io/client': 0.30.1(typescript@5.9.3)
       kysely: 0.28.17
-      pg: 8.22.0
+      pg: 8.20.0
 
   /dunder-proto@1.0.1:
     resolution: {integrity: sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==}
@@ -6431,7 +6431,6 @@ packages:
       pg: '>=8.0'
     dependencies:
       pg: 8.20.0
-    dev: false
 
   /pg-pool@3.14.0(pg@8.22.0):
     resolution: {integrity: sha512-gKtPkFdQPU3DksooVLi9LsjZxrsBUZIpa+7aVx+LV5pNh0KzP4Zleud2po+ConrxbuXGBJ6Hfer6hdgpIBpBaw==}
@@ -6469,7 +6468,6 @@ packages:
       pgpass: 1.0.5
     optionalDependencies:
       pg-cloudflare: 1.4.0
-    dev: false
 
   /pg@8.22.0:
     resolution: {integrity: sha512-8wih1vVIBMxoUM2oB4soJsD9tDnDpLv4OXBJ+EJzFsvycD+lfyIreC2gGHq78f8jbLLt+bvlPTFdFZfJkOuzAA==}
@@ -6930,7 +6928,7 @@ packages:
     resolution: {integrity: sha512-G9c0qlIWQSK29pR/5U2JF5dDQeqqHRragoyahj/Nx4KOOQ3CPPfzxnfqFPCSB7x5UgjOgnZ61nSxz+fjDpRlJg==}
     engines: {node: '>= 10.0.0'}
 
-  /sequelize@6.37.8(pg@8.22.0):
+  /sequelize@6.37.8(pg@8.20.0):
     resolution: {integrity: sha512-HJ0IQFqcTsTiqbEgiuioYFMSD00TP6Cz7zoTti+zVVBwVe9fEhev9cH6WnM3XU31+ABS356durAb99ZuOthnKw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
@@ -6971,7 +6969,7 @@ packages:
       lodash: 4.18.1
       moment: 2.30.1
       moment-timezone: 0.5.48
-      pg: 8.22.0
+      pg: 8.20.0
       pg-connection-string: 2.14.0
       retry-as-promised: 7.1.1
       semver: 7.8.5
@@ -7390,7 +7388,7 @@ packages:
       es-errors: 1.3.0
       is-typed-array: 1.1.15
 
-  /typeorm@0.3.31(mongodb@6.21.0)(pg@8.22.0):
+  /typeorm@0.3.31(mongodb@6.21.0)(pg@8.20.0):
     resolution: {integrity: sha512-6u9EFtdLBgHjnPm78NStVeM+I/1MolTzKykDDcydzKUkh6E++YS6XViU/fePJbvDvEGU4Xq34KOM/CLeer9I2A==}
     engines: {node: '>=16.13.0'}
     hasBin: true
@@ -7455,7 +7453,7 @@ packages:
       dotenv: 16.6.1
       glob: 10.5.0
       mongodb: 6.21.0
-      pg: 8.22.0
+      pg: 8.20.0
       reflect-metadata: 0.2.2
       sha.js: 2.4.12
       sql-highlight: 6.1.0
