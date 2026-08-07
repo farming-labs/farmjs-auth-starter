@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@farm.js/auth": "0.1.0-beta.7",
-    "@farm.js/core": "0.1.0-beta.20",
+    "@farm.js/core": "0.1.0-beta.21",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
