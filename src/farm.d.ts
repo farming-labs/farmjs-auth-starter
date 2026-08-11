@@ -7,11 +7,25 @@ import "@farm.js/core/image";
 
 /**
  * Auto-generated route types from src/app.
- * Link href is typed automatically via module augmentation. Regenerated on dev start and when routes change.
+ * Link href and route component props are typed automatically from generated declarations.
+ * Regenerated on dev start and when routes change.
  * Set suppressLintOnLink: true in farm.config.ts to accept any string on Link href.
  */
-export type RoutePath = "/" | "/dashboard" | "/sign-in" | "/sign-up";
-export type RoutePattern = "/" | "/dashboard" | "/sign-in" | "/sign-up";
+export type RoutePath =
+  | "/"
+  | "/dashboard"
+  | "/sign-in"
+  | "/sign-up";
+export type RoutePattern =
+  | "/"
+  | "/dashboard"
+  | "/sign-in"
+  | "/sign-up";
+export type RouteModulePattern =
+  | "/"
+  | "/dashboard"
+  | "/sign-in"
+  | "/sign-up";
 declare module "@farm.js/core/client" {
   interface LinkDefaultRoute {
     _: import("./farm").RoutePath;
@@ -36,6 +50,13 @@ declare module "@farm.js/core/dist/client.js" {
   }
 }
 
+declare global {
+  namespace FarmJS {
+    interface RouteRegistry {
+      pattern: import("./farm").RouteModulePattern;
+    }
+  }
+}
 
 /**
  * Auto-generated env types from farm.config.

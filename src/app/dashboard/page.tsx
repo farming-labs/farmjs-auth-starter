@@ -122,11 +122,11 @@ export default function DashboardPage() {
           <div className="next-step-list">
             <div>
               <span>01</span>
-              <p>Set the production Farm Auth URL, secret, and database URL in your host.</p>
+              <p>Set the production FARMJS Auth URL, secret, and database URL in your host.</p>
             </div>
             <div>
               <span>02</span>
-              <p>Run the Farm Auth migration command before serving production traffic.</p>
+              <p>Run the FARMJS Auth migration command before serving production traffic.</p>
             </div>
             <div>
               <span>03</span>
