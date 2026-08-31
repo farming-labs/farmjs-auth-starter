@@ -3,7 +3,7 @@
 A standalone email/password authentication starter using Farm.js built-in authentication and
 React.
 
-Current starter baseline: Farm.js `0.1.0-beta.74` and Farm Auth `0.1.0-beta.74`.
+Current starter baseline: Farm.js `0.1.0-beta.75` and Farm Auth `0.1.0-beta.75`.
 
 ## Included
 
