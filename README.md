@@ -3,7 +3,7 @@
 A standalone email/password authentication starter using Farm.js built-in authentication and
 React.
 
-Current starter baseline: Farm.js `0.1.0-beta.95` and Farm Auth `0.1.0-beta.95`.
+Current starter baseline: Farm.js `0.1.0` and Farm Auth `0.1.0`.
 
 Requires Node.js 22.13 or newer.
 
@@ -16,7 +16,7 @@ Requires Node.js 22.13 or newer.
 - automatic local SQLite storage in `.farm/auth.sqlite`
 - production Postgres support through `DATABASE_URL`
 - pending, error, unauthorized, loading, and not-found states
-- exact Farm.js beta dependencies for reproducible installs
+- exact Farm.js dependencies for reproducible installs
 
 ## Quick start
 
