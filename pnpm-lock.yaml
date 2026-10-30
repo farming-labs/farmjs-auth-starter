@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@farm.js/auth':
-    specifier: 0.1.36
-    version: 0.1.36(react-dom@19.3.1)(react@19.3.1)
+    specifier: 0.1.44
+    version: 0.1.44(react-dom@19.3.1)(react@19.3.1)
   '@farm.js/core':
-    specifier: 0.1.36
-    version: 0.1.36(@tailwindcss/vite@4.3.3)(@types/node@20.19.9)(kysely@0.29.7)(react-dom@19.3.1)(react@19.3.1)(sharp@0.35.5)
+    specifier: 0.1.44
+    version: 0.1.44(@tailwindcss/vite@4.3.3)(@types/node@20.19.9)(kysely@0.29.7)(react-dom@19.3.1)(react@19.3.1)(sharp@0.35.5)
   '@fontsource-variable/geist':
     specifier: 5.3.0
     version: 5.3.0
@@ -32,8 +32,8 @@ dependencies:
 
 devDependencies:
   '@farm.js/cli':
-    specifier: 0.1.36
-    version: 0.1.36(@tailwindcss/vite@4.3.3)(@types/node@20.19.9)(kysely@0.29.7)(react-dom@19.3.1)(react@19.3.1)(sharp@0.35.5)
+    specifier: 0.1.44
+    version: 0.1.44(@tailwindcss/vite@4.3.3)(@types/node@20.19.9)(kysely@0.29.7)(react-dom@19.3.1)(react@19.3.1)(sharp@0.35.5)
   '@tailwindcss/vite':
     specifier: ^4.3.3
     version: 4.3.3(vite@8.3.4)
@@ -183,8 +183,8 @@ packages:
       tslib: 2.8.1
     optional: true
 
-  /@farm.js/auth@0.1.36(react-dom@19.3.1)(react@19.3.1):
-    resolution: {integrity: sha512-XrZRcbRMQWFacUvBjWdZS70AyjmWAlR/rdUJQOdi178I/4MIAlpoT32/NTsgXdoQQw7ulaeXccpynF++VVyjVw==}
+  /@farm.js/auth@0.1.44(react-dom@19.3.1)(react@19.3.1):
+    resolution: {integrity: sha512-k76nEvZSbS8Ams27vnRKWmq9SJgwEeTTMn8Ic9MbdSolXZV0ZetMqT7zam8TLi1SsViOKGweuXnkCWCWziMDfQ==}
     peerDependencies:
       react: ^18.2.0 || ^19.0.0
     dependencies:
@@ -214,12 +214,12 @@ packages:
       - vue
     dev: false
 
-  /@farm.js/cli@0.1.36(@tailwindcss/vite@4.3.3)(@types/node@20.19.9)(kysely@0.29.7)(react-dom@19.3.1)(react@19.3.1)(sharp@0.35.5):
-    resolution: {integrity: sha512-kPNYLztpD3q8pu4719noaiDYqZrstL0qSXLp1dbrAlWE2Bb5Dut6dYAINAmbvd4yNRoHciugoEIH68yHhmY6aw==}
+  /@farm.js/cli@0.1.44(@tailwindcss/vite@4.3.3)(@types/node@20.19.9)(kysely@0.29.7)(react-dom@19.3.1)(react@19.3.1)(sharp@0.35.5):
+    resolution: {integrity: sha512-+g7NaCWu/7bpDL6UQayV1fRj9YJ1MH4LXk0WU/vWcn8+6Qab3r71v80Y9kFy2sv0GZVDlN03OMKNiF3A0QxWmQ==}
     engines: {node: '>=22.13.0'}
     hasBin: true
     dependencies:
-      '@farm.js/core': 0.1.36(@tailwindcss/vite@4.3.3)(@types/node@20.19.9)(kysely@0.29.7)(react-dom@19.3.1)(react@19.3.1)(sharp@0.35.5)
+      '@farm.js/core': 0.1.44(@tailwindcss/vite@4.3.3)(@types/node@20.19.9)(kysely@0.29.7)(react-dom@19.3.1)(react@19.3.1)(sharp@0.35.5)
       '@farm.js/tunnel': 0.1.2
       commander: 11.1.0
       croner: 9.1.0
@@ -242,6 +242,7 @@ packages:
       - '@netlify/blobs'
       - '@planetscale/database'
       - '@prisma/client'
+      - '@rolldown/plugin-babel'
       - '@tailwindcss/vite'
       - '@types/node'
       - '@upstash/redis'
@@ -252,6 +253,7 @@ packages:
       - '@vitejs/devtools'
       - '@xata.io/client'
       - aws4fetch
+      - babel-plugin-react-compiler
       - better-sqlite3
       - crossws
       - drizzle-orm
@@ -265,6 +267,7 @@ packages:
       - mongoose
       - mysql2
       - ocache
+      - oxc-transform-react
       - pg-native
       - react
       - react-dom
@@ -283,8 +286,8 @@ packages:
       - yaml
     dev: true
 
-  /@farm.js/core@0.1.36(@tailwindcss/vite@4.3.3)(@types/node@20.19.9)(kysely@0.29.7)(react-dom@19.3.1)(react@19.3.1)(sharp@0.35.5):
-    resolution: {integrity: sha512-5l/LD6nZXyD9EI2TV1e2WnPYQG9Ygw+6wQ0YX1g1jBYQpH7saZuLvK9IFGye7DZv4X5jh5lJrdi8O4GDBQSduA==}
+  /@farm.js/core@0.1.44(@tailwindcss/vite@4.3.3)(@types/node@20.19.9)(kysely@0.29.7)(react-dom@19.3.1)(react@19.3.1)(sharp@0.35.5):
+    resolution: {integrity: sha512-0zOxMJOQQb1DWrFyuwHdJUA2NybqEAqaGMa6eVJSb2XQ2AGbNpSjXQk76Somr4Cb9GA6pB9cX7Uqozd1X41gJA==}
     engines: {node: '>=22.13.0'}
     peerDependencies:
       '@farming-labs/docs': ^0.2.118
@@ -307,6 +310,7 @@ packages:
       sharp:
         optional: true
     dependencies:
+      '@farm.js/islx': 0.0.1(react-dom@19.3.1)(react@19.3.1)(vite@8.3.4)
       '@farming-labs/orm': 0.0.65
       '@farming-labs/orm-runtime': 0.0.65(db0@0.3.4)(kysely@0.29.7)
       '@formatjs/icu-messageformat-parser': 3.5.15
@@ -314,6 +318,7 @@ packages:
       '@mdx-js/mdx': 3.1.1(supports-color@10.2.2)
       '@opentelemetry/api': 1.9.1
       '@tailwindcss/vite': 4.3.3(vite@8.3.4)
+      '@vitejs/plugin-react': 6.1.2(vite@8.3.4)
       better-call: 1.4.0(zod@4.6.7)
       db0: 0.3.4
       es-module-lexer: 2.0.0
@@ -352,6 +357,7 @@ packages:
       - '@netlify/blobs'
       - '@planetscale/database'
       - '@prisma/client'
+      - '@rolldown/plugin-babel'
       - '@types/node'
       - '@upstash/redis'
       - '@vercel/blob'
@@ -360,6 +366,7 @@ packages:
       - '@vitejs/devtools'
       - '@xata.io/client'
       - aws4fetch
+      - babel-plugin-react-compiler
       - better-sqlite3
       - crossws
       - drizzle-orm
@@ -373,6 +380,7 @@ packages:
       - mongoose
       - mysql2
       - ocache
+      - oxc-transform-react
       - pg-native
       - sass
       - sass-embedded
@@ -386,6 +394,29 @@ packages:
       - typeorm
       - uploadthing
       - yaml
+
+  /@farm.js/islx@0.0.1(react-dom@19.3.1)(react@19.3.1)(vite@8.3.4):
+    resolution: {integrity: sha512-kK1mOpVRxjA7f9mu4a3w4rhNjsZh4dwQI/boRiDpLMnW9jc36ZIO2sb9nFbMmznceOqff9eipyK9hyKvA5vyqQ==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    peerDependencies:
+      react: '>=19'
+      react-dom: '>=19'
+      vite: '>=6'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+      vite:
+        optional: true
+    dependencies:
+      estree-walker: 3.0.3
+      is-reference: 3.0.3
+      magic-string: 0.30.21
+      periscopic: 4.0.3
+      react: 19.3.1
+      react-dom: 19.3.1(react@19.3.1)
+      vite: 8.3.4(@types/node@20.19.9)
 
   /@farm.js/tunnel-darwin-arm64@0.1.2:
     resolution: {integrity: sha512-IX/DKuPjZznobkS2+QlLkIkh1b1glotch1XZgR40b2AOUPVsmZCmIqveYfExe1eRxbHmmdKj3ZpeOGbjMIBjIg==}
@@ -1390,6 +1421,25 @@ packages:
   /@ungap/structured-clone@1.4.0:
     resolution: {integrity: sha512-1mEZtMKPM09vDmQt5y7YvmN2+DFTP7Tg0EWXdic8/C6VRnpb33e4ghisCIE3WZjsE2N8mf+QV1Zqh7ZFYLWInQ==}
 
+  /@vitejs/plugin-react@6.1.2(vite@8.3.4):
+    resolution: {integrity: sha512-fhJNGUdscQa4HkI0xFxwonWyhnVReCPDbXI7FH7jmzpnVCrFQI7PRrhWecO263610vOrs9tr2Y4xcf8uAdFxbw==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    peerDependencies:
+      '@rolldown/plugin-babel': ^0.1.7 || ^0.2.0
+      babel-plugin-react-compiler: ^1.0.0
+      oxc-transform-react: ^0.152.0
+      vite: ^8.0.0
+    peerDependenciesMeta:
+      '@rolldown/plugin-babel':
+        optional: true
+      babel-plugin-react-compiler:
+        optional: true
+      oxc-transform-react:
+        optional: true
+    dependencies:
+      '@rolldown/pluginutils': 1.0.1
+      vite: 8.3.4(@types/node@20.19.9)
+
   /acorn-jsx@5.3.2(acorn@8.19.0):
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
     peerDependencies:
@@ -2027,6 +2077,11 @@ packages:
   /is-plain-obj@4.1.0:
     resolution: {integrity: sha512-+Pgi+vMuUNkJyExiMBt5IlFoMyKnr5zhJ4Uspz58WOhBF5QoIZkFyNHIbBAtHwzVAgk5RtndVNsDRN61/mmDqg==}
     engines: {node: '>=12'}
+
+  /is-reference@3.0.3:
+    resolution: {integrity: sha512-ixkJoqQvAP88E6wLydLGGqCJsrFUnqoH6HnaczB8XmDH1oaWU+xxdptvikTgaEhtZ53Ky6YXiBuUI2WXLMCwjw==}
+    dependencies:
+      '@types/estree': 1.0.9
 
   /jiti@2.7.0:
     resolution: {integrity: sha512-AC/7JofJvZGrrneWNaEnJeOLUx+JlGt7tNa0wZiRPT4MY1wmfKjt2+6O2p2uz2+skll8OZZmJMNqeke7kKbNgQ==}
@@ -2885,6 +2940,13 @@ packages:
   /pathe@2.0.3:
     resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
 
+  /periscopic@4.0.3:
+    resolution: {integrity: sha512-iD/CnjEI6TJYwqLXmEVByEbT1RwUGSW3W51t/uWf+2Ag7FMHLqJ1XNhawGaXBf9/gZr+DhF3bTGLOw+03GJnzg==}
+    dependencies:
+      '@types/estree': 1.0.9
+      is-reference: 3.0.3
+      zimmerframe: 1.1.5
+
   /pg-cloudflare@1.4.1:
     resolution: {integrity: sha512-6PQbsFWZcp9EmJEwy5cGQ2La+AMWpP46lgbb8X+U/XsHIUweYDNCpeuKck5RxL2MdVFi7krbbEi5nX4Zh7JhrQ==}
     requiresBuild: true
@@ -3619,6 +3681,9 @@ packages:
   /xtend@4.0.2:
     resolution: {integrity: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==}
     engines: {node: '>=0.4'}
+
+  /zimmerframe@1.1.5:
+    resolution: {integrity: sha512-msJxIvYDYcoNL+PJsu+7qmpDWsYmAxTY+2TNYXXF0hzBzBk0BMecOqDOG/EckUoKCuKwObfbugIl8QpqHDXeFA==}
 
   /zod@4.6.7:
     resolution: {integrity: sha512-g8W2D2kU6a8untc053fX1uVBKzM7yqAxW/3zwk83+6RyF2+SKOuV+c0wBDhUwzV1PaGapmZH+rmcUzPf+3CGwg==}
